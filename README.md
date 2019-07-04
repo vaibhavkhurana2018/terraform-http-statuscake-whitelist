@@ -1,4 +1,4 @@
-# terraform-http-statuscake-whitelist
+# terraform-http-statuscake-whitelist ![](https://img.shields.io/badge/license-MIT-blue.svg)
 Terraform Module that returns the latest StatusCake IP Whitelist: https://www.statuscake.com/kb/knowledge-base/what-are-your-ips/
 
 This module scrapes the IP's used by Status Cake from their website and exposes it as a list to be consumed for whitelisting. The [ status cake website ](https://www.statuscake.com/kb/knowledge-base/what-are-your-ips/) points to the following files for IP's to use: 
