@@ -5,5 +5,5 @@ locals {
 
 output "ips" {
   description = "List of all StatusCake egress IPs."
-  value       = "${local.ips}"
+  value       = ["${formatlist("%s/32", local.ips)}"]
 }
