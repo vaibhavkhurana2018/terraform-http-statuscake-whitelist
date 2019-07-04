@@ -26,7 +26,7 @@ resource "aws_security_group_rule" "allow_all_from_statuscake" {
   from_port       = 0
   to_port         = 443
   protocol        = "tcp"
-  cidr_blocks     = ["${module.statuscake-whitelist.ipsr}"]
+  cidr_blocks     = ["${module.statuscake-whitelist.ips}"]
   security_group_id = "sg-123456"
 }
 ```
