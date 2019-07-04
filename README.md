@@ -1,7 +1,7 @@
 # terraform-http-statuscake-whitelist
 Terraform Module that returns the latest StatusCake IP Whitelist: https://www.statuscake.com/kb/knowledge-base/what-are-your-ips/
 
-This module scrapes the IP's used by Status Cake from their website and exposes it as a list to be consumed for whitelisting. The [ status cake website ] (https://www.statuscake.com/kb/knowledge-base/what-are-your-ips/) points to the following files for IP's to use: 
+This module scrapes the IP's used by Status Cake from their website and exposes it as a list to be consumed for whitelisting. The [ status cake website ](https://www.statuscake.com/kb/knowledge-base/what-are-your-ips/) points to the following files for IP's to use: 
 
 - https://app.statuscake.com/Workfloor/Locations.php?format=txt
 
@@ -40,4 +40,4 @@ Licensed under MIT. See [vaibhavkhurana2018.mit-license.org](https://vaibhavkhur
 
 # Thanks
 
-Would like to thank [Nemo] (https://github.com/captn3m0) for module reference. 
+Would like to thank [ Nemo ](https://github.com/captn3m0) for module reference. 
