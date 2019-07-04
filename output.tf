@@ -1,6 +1,6 @@
 locals {
   ssl_ips = ["162.243.141.135","107.170.235.240","104.236.163.90"]
-  api_ips = ["${split(" ", chomp(data.http.list-txt.body))}"]
+  api_ips = ["${split("\n", chomp(data.http.list-txt.body))}"]
   ips     = ["${concat(local.api_ips, local.ssl_ips)}"]
 }
 
